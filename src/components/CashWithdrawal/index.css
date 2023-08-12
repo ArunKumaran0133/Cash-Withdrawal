@@ -1,0 +1,87 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-icon {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  color: #585076;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.heading {
+  font-weight: 300;
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.balance-heading {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.amount {
+  font-weight: bold;
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.rupee-text {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.amount-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.sum-text {
+  color: #585076;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.list-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
